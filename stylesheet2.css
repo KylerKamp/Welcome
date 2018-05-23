@@ -1,0 +1,77 @@
+/* stylesheet2 for narrow screens */
+
+ 
+#wrapper{
+  width: 100%;
+  min-width: 320px;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+body{
+  background-image: url(pix/woodnarrow.jpg);
+  background-repeat: no-repeat;
+  background-color: #e6e7e2;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+
+header{ 
+  height:30px;
+  padding: 15px;
+  margin: auto:
+}
+
+nav{
+  text-align: center;
+  background-repeat:no-repeat;
+  height: 20px;
+  width: 100%;
+}
+
+nav a{
+  padding:5px;
+  color: #541500;
+  font-family: "paulmaulbold", MS PGothic, sans-serif;
+  font-size: 75%;
+}
+
+
+article{
+  border-radius: 10px;
+  width:75%;
+  height: 30%;
+  overflow: scroll;
+  margin: auto;
+  background: rgba(255, 255, 255, .5);
+  padding: 10px;
+}
+
+footer{
+  margin: auto;
+}
+
+table { 
+  font: 24pt Times, "Times New Roman", Serif;
+  margin:1em auto; 
+  border-collapse: collapse;
+}
+
+th {
+  color: black; 
+}
+
+th, td {
+  border-collapse: collapse;
+  padding: 0px 5px;
+}
+
+th a:hover, td a:hover{
+  opacity: 0.5
+}
